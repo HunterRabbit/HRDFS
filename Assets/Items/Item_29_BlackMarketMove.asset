@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429b39d398d5efe459897527f59d11b4, type: 3}
+  m_Name: Item_29_BlackMarketMove
+  m_EditorClassIdentifier: 
+  Inherence: BlackMarketMove
+  itemName: "\uC554\uC2DC\uC7A5 \uC774\uB3D9\uAD8C"
+  itemDes: "\uC554\uC2DC\uC7A5\uC73C\uB85C \uC774\uB3D9\uC2DC\uCF1C\uC900\uB2E4.
+    \uC2EC\uC57C\uC5D0 \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC73C\uBA74 \uC544\uBB34 \uC77C\uB3C4
+    \uC77C\uC5B4\uB098\uC9C0 \uC54A\uB294\uB2E4."
+  itemSprite: {fileID: 21300000, guid: 9398e63ea203dc64284ae9b5f8ac54e4, type: 3}
+  itemPrice: 0

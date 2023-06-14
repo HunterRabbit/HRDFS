@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1056654272043973159
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1056654272043973157}
+  - component: {fileID: 1056654272043973158}
+  m_Layer: 0
+  m_Name: RandomEventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1056654272043973157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056654272043973159}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.260807, y: -297.1969, z: -0.072990164}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1056654272043973158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056654272043973159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffa5f36f42f58a47a79a305e7415540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 0}
+  timeManager: {fileID: 0}
+  map: {fileID: 0}
+  gameManager: {fileID: 0}
+  uIManager: {fileID: 0}
+  Bulr: {fileID: 0}
+  escortManager: {fileID: 0}
+  BlurPosition: {x: 0, y: 0, z: 0}
+  soundManager: {fileID: 0}
+  scroll: {fileID: 11400000, guid: 5cf2f49b6b5c1e9438ae72b067224362, type: 2}
+  lowPotion: {fileID: 11400000, guid: 37316c537461be0459ed1b87e1ec5428, type: 2}
+  midPotion: {fileID: 11400000, guid: 00c1fab740fc848489a84fdd008e7a75, type: 2}
+  cloak: {fileID: 11400000, guid: f89ade945e9c5864bb4db610666f2c2d, type: 2}
+  gold: {fileID: 11400000, guid: 37316c537461be0459ed1b87e1ec5428, type: 2}
+  XYCandy: {fileID: 11400000, guid: ecd42c952deff324cb3335acdd2a542a, type: 2}
+  XXCandy: {fileID: 11400000, guid: 75bb4e8d9a5f2af4bb298757a81b6656, type: 2}
+  zail_mom: 0
+  jeral_first: 1
+  meet_aspinel: 0
+  REventDialog01: {fileID: 0}
+  REventDialog02: {fileID: 0}
+  REventDialog03: {fileID: 0}
+  REventDialog04: {fileID: 0}
+  REventDialog05: {fileID: 0}
+  REventDialog06: {fileID: 0}
+  REventDialog07: {fileID: 0}
+  REventDialog08: {fileID: 0}
+  REventDialog09: {fileID: 0}
+  REventDialog10: {fileID: 0}
+  REventDialog11: {fileID: 0}
+  REventDialog12: {fileID: 0}
+  REventDialog13: {fileID: 0}
+  REventDialog14: {fileID: 0}
+  REventDialog15: {fileID: 0}
+  REventDialog16: {fileID: 0}
+  REventDialog17: {fileID: 0}
+  REventDialog18: {fileID: 0}
+  REventDialog19: {fileID: 0}
+  REventDialog20: {fileID: 0}
+  REventDialog21: {fileID: 0}
+  REventDialog22: {fileID: 0}
+  REventDialog23: {fileID: 0}
+  REventDialog24: {fileID: 0}
+  REventDialog25: {fileID: 0}
+  REventDialog26: {fileID: 0}
+  REventDialog27: {fileID: 0}
+  REventDialog28: {fileID: 0}
+  REventDialog29: {fileID: 0}
+  REventDialog30: {fileID: 0}
+  REventDialog31: {fileID: 0}
+  REventDialog32: {fileID: 0}
+  REventDialog33: {fileID: 0}
+  REventDialog34: {fileID: 0}
+  REventDialog35: {fileID: 0}
+  REventDialog36: {fileID: 0}
+  REventDialog37: {fileID: 0}
+  REventDialog38: {fileID: 0}
+  REventDialog39: {fileID: 0}
+  REventDialog40: {fileID: 0}
+  REventDialog41: {fileID: 0}
+  REventDialog42: {fileID: 0}
+  REventDialog43: {fileID: 0}
+  REventDialog44: {fileID: 0}
+  REventDialog45: {fileID: 0}
+  REventDialog46: {fileID: 0}
+  REventDialog47: {fileID: 0}
+  REventDialog48: {fileID: 0}
+  REventDialog49: {fileID: 0}
+  REventDialog50: {fileID: 0}
+  AspinelDialog01: {fileID: 0}
+  AspinelDialog02: {fileID: 0}
+  AspinelDialog03: {fileID: 0}
+  AspinelDialog04: {fileID: 0}
+  AspinelDialog05: {fileID: 0}
+  AspinelDialog06: {fileID: 0}
+  AspinelDialog07: {fileID: 0}
+  AspinelDialog08: {fileID: 0}
+  AspinelDialog09: {fileID: 0}
+  AspinelDialog10: {fileID: 0}
+  AspinelDialog11: {fileID: 0}
+  AspinelDialog12: {fileID: 0}
+  AspinelDialog13: {fileID: 0}
+  AspinelDialog14: {fileID: 0}
+  AspinelDialog15: {fileID: 0}
+  AspinelDialog16: {fileID: 0}

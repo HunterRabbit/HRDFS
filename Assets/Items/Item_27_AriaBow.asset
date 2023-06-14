@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429b39d398d5efe459897527f59d11b4, type: 3}
+  m_Name: Item_27_AriaBow
+  m_EditorClassIdentifier: 
+  Inherence: AriaBow
+  itemName: "\uC544\uB9AC\uC544\uC758 \uAC00\uD638\uAC00 \uB4E0 \uD65C"
+  itemDes: "\uC815\uB839\uC744 \uC798 \uB2E4\uB8E8\uB294 \uC0AC\uB78C\uC774 \uC544\uB2C8\uB77C\uBA74
+    \uC3E0 \uC218 \uC870\uCC28 \uC5C6\uB2E4."
+  itemSprite: {fileID: 21300000, guid: 1d137ac7d52384c488310233ee7f45c3, type: 3}
+  itemPrice: 0

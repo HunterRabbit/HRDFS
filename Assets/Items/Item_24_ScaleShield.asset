@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429b39d398d5efe459897527f59d11b4, type: 3}
+  m_Name: Item_24_ScaleShield
+  m_EditorClassIdentifier: 
+  Inherence: ScaleShield
+  itemName: "\uB450\uB985 \uB354 \uB9D0\uB77C\uCE74\uC774\uD2B8 \uBE44\uB298\uB85C
+    \uB9CC\uB4E0 \uBC29\uD328"
+  itemDes: "\uBB34\uC9C0\uB9C9\uC9C0\uD558\uAC8C \uBB34\uAC81\uACE0 \uB2E8\uB2E8\uD55C
+    \uBC29\uD328\uC774\uB2E4. \uACFC\uC5F0 \uB4E4 \uC218 \uC788\uB294 \uC0AC\uB78C\uC774
+    \uC788\uC744\uAE4C?"
+  itemSprite: {fileID: 21300000, guid: 13b044dd4a93ee04e8bc3e2e316e05f7, type: 3}
+  itemPrice: 0

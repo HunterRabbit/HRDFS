@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7114003262753088635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7114003262753088634}
+  - component: {fileID: 7114003262753089415}
+  - component: {fileID: 7114003262753089412}
+  - component: {fileID: 7114003262753089414}
+  m_Layer: 0
+  m_Name: Kachanta
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7114003262753088634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114003262753088635}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.9, y: -249.9, z: 29.027983}
+  m_LocalScale: {x: 0.339, y: 0.28799, z: 0.73311996}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7114003262753089415
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114003262753088635}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: a63ab5d2cecefaf42b22b43dbba28c80, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8.45, y: 12.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!61 &7114003262753089412
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114003262753088635}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 8.45, y: 12.8}
+    newSize: {x: 8.45, y: 12.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 8.45, y: 12.8}
+  m_EdgeRadius: 0
+--- !u!114 &7114003262753089414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114003262753088635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94ce83405ea1e446b8267948847e358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeManager: {fileID: 0}
+  soundManager: {fileID: 0}
+  gameManager: {fileID: 0}
+  First: 1
+  aspinel: {fileID: 11400000, guid: 300034ee5a0f6e646a9b9cadc8c60de2, type: 2}
+  KachantaDialog01: {fileID: 0}
+  KachantaDialog02: {fileID: 0}
+  KachantaDialog03: {fileID: 0}
+  KachantaDialog04: {fileID: 0}
+  KachantaDialog05: {fileID: 0}
+  KachantaDialog06: {fileID: 0}
+  KachantaDialog07: {fileID: 0}
+  KachantaDialog08: {fileID: 0}
+  KachantaDialog09: {fileID: 0}
+  KachantaDialog10: {fileID: 0}
+  KachantaDialog11: {fileID: 0}
+  KachantaDialog12: {fileID: 0}
+  KachantaDialog13: {fileID: 0}
+  KachantaDialog14: {fileID: 0}
+  KachantaDialog15: {fileID: 0}
+  KachantaDialog16: {fileID: 0}
+  KachantaDialog17: {fileID: 0}
+  KachantaDialog18: {fileID: 0}
+  KachantaDialog19: {fileID: 0}
+  KachantaDialog20: {fileID: 0}
+  KachantaDialog21: {fileID: 0}
+  KachantaDialog22: {fileID: 0}
+  KachantaDialog23: {fileID: 0}
+  KachantaDialog24: {fileID: 0}
+  KachantaDialog25: {fileID: 0}
+  KachantaDialog26: {fileID: 0}
+  KachantaDialog27: {fileID: 0}
+  KachantaDialog28: {fileID: 0}
+  KachantaDialog29: {fileID: 0}
+  KachantaDialog30: {fileID: 0}
+  KachantaDialog31: {fileID: 0}
+  KachantaDialog32: {fileID: 0}
+  KachantaDialog33: {fileID: 0}
+  KachantaDialog34: {fileID: 0}
+  KachantaDialog35: {fileID: 0}
+  KachantaDialog36: {fileID: 0}
+  KachantaDialog37: {fileID: 0}
+  KachantaDialog38: {fileID: 0}
+  KachantaDialog39: {fileID: 0}
+  KachantaDialog40: {fileID: 0}
+  KachantaDialog41: {fileID: 0}
+  KachantaDialog42: {fileID: 0}
+  KachantaDialog43: {fileID: 0}
+  KachantaDialog44: {fileID: 0}
+  KachantaDialog45: {fileID: 0}
+  KachantaDialog46: {fileID: 0}
+  KachantaDialog47: {fileID: 0}
+  KachantaDialog48: {fileID: 0}
+  KachantaDialog49: {fileID: 0}
+  KachantaDialog50: {fileID: 0}
+  KachantaDialog51: {fileID: 0}
+  KachantaDialog52: {fileID: 0}
+  KachantaDialog53: {fileID: 0}
+  KachantaDialog54: {fileID: 0}
+  KachantaDialog55: {fileID: 0}
+  KachantaDialog56: {fileID: 0}
+  KachantaDialog57: {fileID: 0}
+  KachantaDialog58: {fileID: 0}
+  KachantaDialog59: {fileID: 0}
+  KachantaDialog60: {fileID: 0}
+  KachantaDialog61: {fileID: 0}
+  KachantaDialog62: {fileID: 0}
+  KachantaDialog63: {fileID: 0}
+  KachantaDialog64: {fileID: 0}
+  KachantaDialog65: {fileID: 0}
+  KachantaDialog66: {fileID: 0}
+  KachantaDialog67: {fileID: 0}
+  KachantaDialog68: {fileID: 0}
+  KachantaDialog69: {fileID: 0}
+  KachantaDialog70: {fileID: 0}
+  KachantaDialog71: {fileID: 0}
+  KachantaDialog72: {fileID: 0}
+  KachantaDialog73: {fileID: 0}
+  KachantaDialog74: {fileID: 0}
+  KachantaDialog75: {fileID: 0}
+  KachantaDialog76: {fileID: 0}
+  KachantaDialog77: {fileID: 0}
+  KachantaDialog78: {fileID: 0}
+  KachantaDialog79: {fileID: 0}
